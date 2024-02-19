@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_contant{
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.service{
+    height: 650PX;
+    width: 50%;
+    background-color: rgb(231, 156, 171);
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    padding: 100px 60px 0px 0px ;
+    position: relative;
+    
+}
+
+.web1{
+    margin-top: 20px;
+}
+.print2{
+    margin-top: 30px;
+}
+.photo3{
+    margin-top: 30px;
+}
+
+.our{
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: white;
+    
+}
+
+.web{
+    margin-bottom: 10px;
+    color: blanchedalmond;
+    
+}
+
+.print{
+    margin-bottom: 10px;
+    color: blanchedalmond;
+   
+}
+
+.photo{
+    margin-bottom: 10px;
+    color: blanchedalmond;
+}
+
+.icon1{
+    position: absolute;
+    left: 625px;
+    top: 220px;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    color: brown;
+    padding: 12px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background-color: bisque;
+    z-index: 1;
+
+}
+.icon2{
+    position: absolute;
+    left: 625px;
+    top: 340px;
+    border: 1px solid black;
+    height: 50px ;
+    width: 50px;
+    color: brown;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background-color: bisque;
+    padding: 12px;
+    z-index: 1;
+
+}
+.icon3{
+    position: absolute;
+    left: 625px;
+    top: 455px;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    color: brown;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background-color: bisque;
+    padding: 12px;
+    z-index: 1;
+
+}
+p{
+    color: rgb(92, 84, 55);
+}
+
+.bcg_image{
+    height: 650px;
+    width: 650px;
+    background-image: url(https://images.pexels.com/photos/3274903/pexels-photo-3274903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    position: absolute;
+    left: 650px;
+    bottom: 0px;
+    background-size: cover;
+    background-position: center;
+
+}

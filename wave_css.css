@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wave_form{
+    height: 100%;
+    width: 100%;
+}
+
+.wave{
+    height: auto;
+    width: 100%;
+    margin-top: 500px;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+}
