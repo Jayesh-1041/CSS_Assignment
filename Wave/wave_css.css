@@ -5,17 +5,205 @@
 }
 
 .wave_form{
-    height: 100%;
-    width: 100%;
+    height: 650px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
 .wave{
-    height: auto;
+    height: 100px;
+    width: auto;
+    
+}
+svg{
+    height: 350px;
     width: 100%;
-    margin-top: 500px;
+    margin-top: 300px;
+
+}
+.text{
+    color: white;
+    margin-left: 400px;
+}
+h3{
+    font-size: 2rem;
+    margin-left: 160px;
+}
+p{
+    font-size: 1.5rem;
+    color: rgb(243, 194, 194);
+}
+hr{
+    width: 300px;
+    margin-left: 120px;
+}
+.boxes{
+    height: 70px;
+    widows: 70px;
+    position: relative;
 }
 
-.img{
-    height: 200px;
-    width: 200px;
+.img1{
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 330px;
+    left: 200px;
+    transition: all 800ms;
+    transition-delay: 100ms;
+}
+
+.img2{
+    height: 50px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 260px;
+    left: 450px;
+    transition: all 800ms;
+    transition-delay: 100ms;
+}
+
+.img3{
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 210px;
+    left: 650px;
+    transition: all 800ms;
+    transition-delay: 100ms;
+}
+
+.img4{
+    height: 50px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    transition: all 800ms;
+    transition-delay: 100ms;
+
+}
+
+.img5{
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 250px;
+    left: 1100px;
+    transition: all 800ms;
+    transition-delay: 100ms;
+}
+.text1{
+    color: black;
+    opacity: 0;
+    font-size: 12px;
+    position: relative;
+    transition: all 800ms;
+    transition-delay: 100ms;
+    top: 400px;
+    left: 185px;
+}
+.text1:hover{
+    font-size: 16px;
+    opacity: 1;
+
+}
+.text2{
+    color: black;
+    font-size: 12px;
+    opacity: 0;
+    position: relative;
+    transition: all 800ms;
+    transition-delay: 100ms;
+    top: 310px;
+    left: 410px;
+}
+.text2:hover{
+    font-size: 16px;
+    opacity: 1;
+    
+}
+.text3{
+    color: black;
+    opacity: 1;
+    font-size: 12px;
+    position: relative;
+    transition: all 800ms;
+    transition-delay: 100ms;
+    top: 250px;
+    left: 615px;
+}
+.text3:hover{
+    font-size: 16px;
+    opacity: 1;
+    color: rgb(196, 129, 47);
+    
+}
+.text4{
+    color: black;
+    opacity: 1;
+    font-size: 12px;
+    position: relative;
+    transition: all 800ms;
+    transition-delay: 100ms;
+    top: 280px;
+    left: 820px;
+}
+.text4:hover{
+    font-size: 16px;
+    opacity: 1;
+    color: rgb(172, 116, 49);
+    font-style: italic;
+    
+}
+.text5{
+    color: black;
+    opacity: 0;
+    font-size: 12px;
+    position: relative;
+    transition: all 800ms;
+    transition-delay: 100ms;
+    top: 250px;
+    left: 1090px;
+}
+.text5:hover{
+    font-size: 16px;
+    opacity: 1;
+    color: rgb(126, 160, 95);
+    font-style: italic;
+    
+}
+
+.img1:hover{
+    height: 70px;
+    
+}
+.img2:hover{
+    height: 70px;
+    
+
+}
+.img3:hover{
+    height: 70px;
+
+}
+.img4:hover{
+    height: 70px;
+
+}
+.img5:hover{
+    height: 70px;
+    
 }

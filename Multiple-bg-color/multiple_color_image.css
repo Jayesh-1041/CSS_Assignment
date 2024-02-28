@@ -6,7 +6,7 @@
 
 .main_contant{
     height: 100%;
-    width: 100%;
+    width: 650px;
     /* display: flex;
     flex-direction: column; */
 
@@ -14,7 +14,7 @@
 
 .service{
     height: 650PX;
-    width: 50%;
+    width: auto;
     background-color: rgb(231, 156, 171);
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@ p{
 
 .bcg_image{
     height: 650px;
-    width: 650px;
+    width: 660px;
     background-image: url(https://images.pexels.com/photos/3274903/pexels-photo-3274903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     position: absolute;
     left: 650px;
