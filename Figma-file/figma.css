@@ -17,11 +17,12 @@
     border: 1px solid rgb(230, 189, 189);
     border-radius: 20px;
     font-size: 1.5rem;
+    padding: 7px;
 }
 
 .ul1{
     list-style-type: none;
-    padding-top: 15px;
+    padding-top: 10px;
     margin: 0px;
     display: flex;
     justify-content: space-around;
@@ -31,7 +32,7 @@
 }
 
 .li1 a {
-    display: flex;
+    display: block;
     color: rgb(97, 56, 56);
     text-align: center;
     text-decoration: none;
@@ -41,10 +42,47 @@
     color: rgb(122, 31, 207);
   }
   
-.li1 a:hover{
-    background-color: rgb(208, 222, 223);
+
+#get_started{
+    background-color: rgb(188, 215, 216);
+    color: rgb(88, 130, 209);
+    width: 160px;
+    font-size: 1.5rem;
     border-radius: 10px;
+    opacity: 1;
+    
 }
+
+.howit{
+    border: hidden;
+    font-size: 1.2rem;
+    background-color: rgb(240, 232, 222);
+    opacity: 1;
+}
+
+.produc{
+    border: hidden;
+    font-size: 1.2rem;
+    background-color: rgb(240, 232, 222);
+    opacity: 1;
+}
+
+.resor{
+    border: hidden;
+    font-size: 1.2rem;
+    background-color: rgb(240, 232, 222);
+    opacity: 1;
+}
+
+#pricing{
+    opacity: 1;
+}
+
+#login{
+    opacity: 1;
+}
+
+
 
 .menu{
     height: 40px;
@@ -53,11 +91,7 @@
     background-color: aquamarine;
     border-radius: 12px;
     color: blueviolet;
-}
-
-.menu:hover{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    border: 1px solid rgb(228, 208, 208);
+    opacity: 0;
 }
 
 .save_valu{
@@ -73,31 +107,36 @@
 .save{
     height: 50px;
     width: 30%;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     text-align: center;
     border-radius: 20px;
     position: relative;
-    left: 3%;
+    left: 6%;
     background-color: rgb(226, 161, 114);
     color: white; 
+    opacity: 1;
 }
 
 .account{
     height: 50px;
-    width: 43%;
-    font-size: 1.6rem;
+    width: 50%;
+    font-size: 1.4rem;
     text-align: center;
     border: 1px solid white;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-right: 20px;
+    border-radius: 20px;
+    margin-right: 30px;
     color: rgb(22, 114, 119);
     background-color: rgba(240, 231, 220, 0.596);
 }
+.headercontant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
 
 .text1{
-    margin-left: 22%;
-    margin-top: 3%;
     font-size: 2rem;
     text-align: center;
     width: 55%;
@@ -108,16 +147,14 @@
     text-align: center;
     font-size: 1.5rem;
     width: 50%;
-    margin-left: 26%;
-    margin-top: 20px;
+    
 }
 
 .input{
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    margin-left: 30%;
-    position: absolute; 
+   
 }
 
 .yourcompany{
@@ -127,8 +164,8 @@
     padding: 10px;
     border-top-left-radius:10px;
     border-bottom-left-radius: 10px;
-    position: relative;
-    left: 3%;
+   
+    
 }
 
 .tryit{
@@ -137,7 +174,8 @@
     border-top-right-radius:10px;
     border-bottom-right-radius: 10px;
     color: white;
-    background-color: blueviolet;  
+    background-color: blueviolet; 
+     
 }
 
 .graf1{
@@ -145,7 +183,7 @@
     width: 70%;
     border: 1px solid rgb(241, 219, 219);
     margin-bottom: 100px;
-    margin-top: 150px;
+    margin-top: 250px;
     margin-left: 15%;
 }
 
@@ -166,7 +204,7 @@
     align-items: center;
     align-content: center;
     text-decoration: none;
-    column-gap: 10%;
+    column-gap: 5%;
     margin: 30px 0px 100px 0px;
 }
 
@@ -178,6 +216,9 @@
     overflow: hidden;
     color: rgb(176, 115, 233);
 }
+.slack{
+    opacity: 1;
+}
 
 .ul2 a:hover{
     color: blue;
@@ -185,7 +226,7 @@
 }
 
 .timeline_team{
-    height: 630px;
+    height: 100%;
     width: 100%;
     background-color: rgb(212, 237, 238);
     display: flex;
@@ -200,15 +241,18 @@
 }
 
 .texes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;  
     background-color: rgb(211, 236, 236);
     margin-top: 15%;
 }
 
 .survey{
-    height: 100px;
+    height: 100%;
     width: 100%;
     background-color: rgb(175, 228, 228);
-    border-radius: 10px;
     text-align: center;
     padding: 20px;
     font-size: 1rem;
@@ -224,11 +268,11 @@ hr{
 }
 
 .resolve{
-    height: 70px;
+    height: 100%;
     width: 100%;
     text-align: center;
     font-size: 1rem;
-    margin: 20px;
+    padding: 20px;
     background-color: rgb(211, 236, 236);
     display: flex;
     flex-direction: column;
@@ -236,7 +280,7 @@ hr{
 }
 
 .plan{
-    height: 70px;
+    height: 100%;
     width: 100%;
     text-align: center;
     font-size: 1rem;
@@ -247,7 +291,7 @@ hr{
 }
 
 .easy{
-    height: 70px;
+    height: 100%;
     width: 100%;
     text-align: center;
     font-size: 1rem;
@@ -256,6 +300,9 @@ hr{
     flex-direction: column;
     align-items: flex-start;
 }
+
+
+
 
 .make_your_work{
     height: 150px;
@@ -379,7 +426,7 @@ hr{
     justify-content: space-evenly;
     padding-top: 5%;
     background-color: rgb(212, 237, 238);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .graf2{
@@ -392,15 +439,19 @@ hr{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+.wework1{
+    font-size: 2.5rem;
+}
+
 .we_work{
     height: 150px;
     width: 30%;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .get_started{
     height: 70px;
-    width: 250px;
+    width: 270px;
     font-size: 1.5rem;
     color: white;
     border-radius: 10px;
@@ -412,10 +463,15 @@ hr{
     height: 150px;
     width: 45%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-left: 28%;
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 170px;
+}
+
+.amazing2{
+    width: 100%;
+    text-align: center;
 }
 
 .users{
@@ -446,21 +502,22 @@ hr{
 }
 
 .footer1{
-    height: 300px;
-    width: 80%;
+    height: 100%;
+    width: 85%;
     display: flex;
     justify-content: space-around;
+    align-content: center;
+    align-items: center;
     background-color: blueviolet;
     border-radius: 30px;
-    margin-left: 10%;
-    margin-right: 5%;
+    margin-left: 8%;
     font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 100px;
 }
 
 .employees{
-    width: 35%;
+    width: 30%;
     margin-left: 5%;
     display: flex;
     align-items: center;
@@ -471,48 +528,51 @@ hr{
     width: 50%;
     height: 300px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    /* gap: 30px; */
     margin-right: 5%; 
 }
 
 .icon_go{
-    height: 90px;
-    width: 50%;
+    height: 70px;
+    width: 40%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
     border: 1px solid black;
     background-color: white;
     border-radius: 20px;
+    padding: 5px;
 }
 
 .fa-google-play{
     height: 50px;
     width: 50px;
     font-size: 3rem;
-    padding-top: 20px;
-    padding-left: 10px;
     color: red;
 }
-.goplay{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    margin-top: -25%;
-    margin-left: 30%;
-    padding: 15px;
+/* .goplay{
+    padding: 10px;
 
-}
+} */
 .getiton{
     font-size: 0.7rem;
     color: rgb(116, 103, 88);
 }
 
 .googleplay{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
 }
 
 .icon_app{
-    height: 90px;
-    width: 50%;
+    height: 70px;
+    width: 40%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
     border: 1px solid black;
     background-color: white;
     border-radius: 20px;
@@ -522,19 +582,15 @@ hr{
     height: 50px;
     width: 50px;
     font-size: 3rem;
-    padding-top: 18px;
-    padding-left: 10px;
     color: red;
     
 }
-.downapp{
+/* .downapp{
     display: flex;
     flex-direction: column;
     justify-content: end;
-    margin-top: -20%;
-    margin-left: 30%;
-    padding: 5px;
-}
+    
+} */
 
 .down1{
     font-size: 0.7rem;
@@ -545,12 +601,20 @@ hr{
     font-size: 1.2rem;
 }
 
+
+
 .footer2{
-    height: 400px;
+    height: 450px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     background-color: rgb(34, 26, 26);
+}
+
+.footer_main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .company{
@@ -635,7 +699,9 @@ hr{
 }
 
 .bottom{
-    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h2{
@@ -648,26 +714,1982 @@ h3{
 }
 
 .footerhr{
-    width: 1200px;
+    width: 100%;
     color: white;
-    height: 2px;
-    margin-top:25%;
 }
 
 .allright{
-    margin-top: -20px;
-    margin-left: 35px;
     color: rgb(248, 236, 236);
 }
 
 .twitter{
     color: rgb(240, 228, 228);
     font-size: 2rem;
-    margin-left: 70%;
-    margin-top: -20px;
+   
 }
 
 
-/* ****** @mediy quary ****** */
+/* ****** @media quary ****** */
+@media screen and (max-width:900px){
+
+    .header{
+        height: 70px;
+        width: 100%;
+        background-color: rgb(240, 232, 222);
+        border: 1px solid rgb(230, 189, 189);
+        border-radius: 20px;
+        font-size: 1rem;
+        padding: 7px;
+    }
+
+
+}
+
+
+
+
+/* ****** @media quary ****** */
+@media screen and (max-width:800px){
+    .save{
+        opacity: 0;
+    }
+    .account{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+        
+    }
+    .menu{
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 20%;
+        margin-right: 20%;
+    }
+    #teamflo{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 20%;
+        margin-left: 200px;
+    }
+    .headercontant{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .text1{
+        font-size: 2rem;
+        text-align: center;
+        width: 55%;
+        margin-top: 200px;
+    }
+    
+    .text2{
+        text-align: center;
+        font-size: 1.5rem;
+        width: 50%;
+        
+    }
+    
+    .input{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+       
+    }
+    
+    .yourcompany{
+        height: 50px;
+        font-size: 1.5rem;
+        padding: 10px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius: 10px;
+       
+        
+    }
+
+    #get_started{
+        opacity: 0;
+        
+    }
+    
+    .howit{
+        opacity: 0;
+    }
+    
+    .produc{
+        opacity: 0;
+    }
+    
+    .resor{
+        opacity: 0;
+    }
+    
+    #pricing{
+        opacity: 0;
+    }
+    
+    #login{
+        opacity: 0;
+    }
+    .timeline_team{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(212, 237, 238);
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
+    
+    .timeline{
+        height: 500px;
+        width: 50%;
+        margin-top: 5%;
+    }
+    
+    .texes{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;  
+        background-color: rgb(211, 236, 236);
+        margin-top: 15%;
+    }
+    
+    .survey{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(175, 228, 228);
+        text-align: center;
+        padding: 20px;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    hr{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 5%;
+    }
+    
+    .resolve{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        padding: 20px;
+        background-color: rgb(211, 236, 236);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .plan{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .easy{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .make_your_work{
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .make_your_work1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    
+    .fa-square-poll-vertical{
+        height: 60px;
+        width: 60px;
+        display: flex;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        font-size: 2rem;
+        background-color: aquamarine;
+        border-radius: 50%;
+        color: red ;
+        padding: 15px;
+    }
+    
+    .fa-newspaper{
+        height: 60px;
+        width: 60px;
+        font-size: 2rem;
+        background-color: aquamarine;
+        border-radius: 50%;
+        color: red ;
+        padding: 14px;
+    }
+    
+    .fa-user{
+        height: 60px;
+        width: 60px;
+        font-size: 2rem;
+        background-color: aquamarine;
+        border-radius: 50%;
+        color: red ;
+        padding: 15px;
+    }
+    
+    .team2{
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem; 
+    }
+    
+    .build{
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }    
+       
+    .quickly{
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;  
+    }
+    
+    .make_your_work2{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    
+    .anonymous{
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        
+    }
+    
+    .fa-message{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        font-size: 2rem;
+        background-color: aquamarine;
+        color: red;
+        padding: 15px;
+      
+    }
+    
+    .convetsation{
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    
+    }
+    
+    .fa-code-compare{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        font-size: 2rem;
+        background-color: aquamarine;
+        color: red;
+        padding: 15px;
+      
+    }
+    
+    .exclusives{
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    
+    }
+    
+    .fa-dropbox{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        font-size: 2rem;
+        background-color: aquamarine;
+        color: red;
+        padding: 15px;
+     
+    }
+
+    .grafs{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        background-color: rgb(212, 237, 238);
+        margin-bottom: 100px;
+       
+    }
+    
+    .graf2{
+        height: 100%;
+        width: 100%;
+        border: 1px solid rgb(238, 228, 228);
+      
+    }
+    
+    .graf2:hover{
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    
+    .we_work{
+        height: 300px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        
+    }
+    
+    .get_started{
+        height: 70px;
+        width: 80%;
+        font-size: 1.5rem;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 30px;
+        background-color: blueviolet;
+    }
+    .customers{
+        height: 150px;
+        width: 45%;
+        text-align: center;
+        font-size: 1.3rem;
+        margin-left: 28%;
+        margin-top: 10px;
+        margin-bottom: 150px;
+    }
+    
+    .amazing2{
+        width: 100%;
+        text-align: center;
+       
+    }
+    
+    .users{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .user_img1{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        
+    }
+    .img1,.img2,.img3{
+        margin-bottom: 50px;
+    }
+    
+    .user_img2{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+    
+    .user_img3{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .footer1{
+        height: 400px;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        background-color: blueviolet;
+        border-radius: 30px;
+        font-size: 1.5rem;
+    }
+    
+    .employees{
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .icons{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        text-align: center;
+        /* gap: 30px; */
+        
+    }
+    
+    .icon_go{
+        height: 90px;
+        width: 40%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+    
+    .fa-google-play{
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        color: red;
+    }
+    .goplay{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: end;
+        /* padding: 15px; */
+    
+    }
+    .getiton{
+        font-size: 1rem;
+        color: rgb(116, 103, 88);
+    }
+    
+    .googleplay{
+        font-size: 1.5rem;
+    }
+    
+    .icon_app{
+        height: 90px;
+        width: 40%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+    
+    .fa-apple{
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        color: red;
+        
+    }
+    .downapp{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: end;
+        padding: 5px;
+    }
+    
+    .down1{
+        font-size: 1rem;
+        color: rgb(116, 103, 88);
+    }
+    
+    .appstore{
+        font-size: 1.5rem;
+    }
+
+
+    /* ******** Footer2 ********* */
+
+    .footer2{
+        height: 450px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(34, 26, 26);
+    }
+    
+    .footer_main{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .company{
+        color: white;
+        padding-top: 50px;
+    }
+    
+    .suport{
+        color: white;
+        padding-top: 50px;
+    }
+    
+    .legel{
+        color: white;
+        padding-top: 50px;
+    }
+    
+    .install{
+        color: white;
+        padding-top: 50px;
+    }
+    
+    .icon3{
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(236, 217, 217);
+        border-radius:10px;
+    }
+    
+    #play2{
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204);
+    }
+    
+    .gopla{
+        margin-top: -25%;
+        margin-left: 30%;
+        padding: 10px;
+    }
+    
+    .getiton1{
+        font-size: 0.6rem;
+    }
+    
+    .googleplay1{
+        font-size: 1.2rem;
+    }
+    
+    .icon4{
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(223, 171, 171);
+        border-radius:10px;
+    }
+    
+    #apple2{
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 2px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204)
+    }
+    
+    .down{
+        margin-top: -25%;
+        margin-left: 30%;
+        padding: 10px;
+        color: white;
+    }
+    
+    .down3{
+        font-size: 0.6rem;
+    }
+    
+    .appstore1{
+        font-size: 1.2rem;
+    }
+    
+    .bottom{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    h2{
+        font-size: 1.8rem;
+    }
+    
+    h3{
+        color: beige;
+        font-size: 1.2rem;
+    }
+    
+    .footerhr{
+        width: 100%;
+        color: white;
+    }
+    
+    .allright{
+        color: rgb(248, 236, 236);
+    }
+    
+    .twitter{
+        color: rgb(240, 228, 228);
+        font-size: 2rem;
+       
+    }
+
+    
+}
+    @media screen and (max-width:700px){
+
+        .menu{
+            opacity: 1;
+            display: flex;
+            align-items: center; 
+            align-content: center;
+             margin-bottom: 20%;
+             margin-left: -200px;
+            margin-right: 800px;
+        }
+        #teamflo{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-bottom: 20%;
+            margin-left: 900px;
+        } 
+        .account{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            width: 100%;
+            font-size: 1rem;
+            
+        }
+
+        .headercontant{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+        
+        .text1{
+            font-size: 1.5rem;
+            text-align: center;
+            width: 55%;
+            margin-top: 200px;
+        }
+        
+        .text2{
+            text-align: center;
+            font-size: 1.5rem;
+            width: 50%;
+            
+        }
+        
+        .input{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+           
+        }
+        
+        .yourcompany{
+            height: 50px;
+            /* width: 310px; */
+            font-size: 1.5rem;
+            padding: 10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        .ul2{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-decoration: none;
+            column-gap: 3%;
+            margin: 30px 0px 100px 0px;
+        }
+        
+        .ul2 a{
+            text-decoration: none;
+            text-align: center;
+            font-size:1.8rem;
+            display: flex;
+            overflow: hidden;
+            color: rgb(176, 115, 233);
+        }
+        .timeline_team{
+            height: 100%;
+            width: 100%;
+            background-color: rgb(212, 237, 238);
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-evenly; */
+            margin-bottom: 50px;
+        }
+        
+        .timeline{
+            height: 100%;
+            width: 100%;
+            margin-top: 5%;
+        }
+        
+        .texes{
+            display: flex;
+            flex-direction: column;
+            /* align-items: flex-start; */
+            text-align: center;  
+            align-content: center;
+            background-color: rgb(211, 236, 236);
+            margin-top: 15%;
+        }
+        
+        .survey{
+            height: 100%;
+            width: 100%;
+            background-color: rgb(175, 228, 228);
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        
+        hr{
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 5%;
+        }
+        
+        .resolve{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            padding: 20px;
+            background-color: rgb(211, 236, 236);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+        }
+        
+        .plan{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .easy{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .customers{
+            height: 150px;
+            width: 45%;
+            text-align: center;
+            font-size: 1.2rem;
+            margin-left: 28%;
+            margin-top: 10px;
+            margin-bottom: 150px;
+        }
+        
+        .amazing2{
+            width: 100%;
+            text-align: center;
+           
+        }
+        .footer1{
+            height: 400px;
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            text-align: center;
+            background-color: blueviolet;
+            border-radius: 30px;
+            font-size: 1.5rem;
+        }
+        
+        .employees{
+            width: 100%;
+            margin-left: 0%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            align-content: center;
+            color: white;
+            padding-top: 20px;
+        }
+        
+        .icons{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+            align-content: center;
+            text-align: center;
+            /* gap: 30px; */
+            
+        }
+        
+        .icon_go{
+            height: 90px;
+            width: 40%;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        .fa-google-play{
+            height: 50px;
+            width: 50px;
+            font-size: 3rem;
+            color: red;
+        }
+        .goplay{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            justify-content: end;
+            /* padding: 15px; */
+        
+        }
+        .getiton{
+            font-size: 1rem;
+            color: rgb(116, 103, 88);
+        }
+        
+        .googleplay{
+            font-size: 1.5rem;
+        }
+        
+        .icon_app{
+            height: 90px;
+            width: 40%;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        .fa-apple{
+            height: 50px;
+            width: 50px;
+            font-size: 3rem;
+            color: red;
+            
+        }
+        .downapp{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            justify-content: end;
+            padding: 5px;
+        }
+        
+        .down1{
+            font-size: 1rem;
+            color: rgb(116, 103, 88);
+        }
+        
+        .appstore{
+            font-size: 1.5rem;
+        }
+        .footer2{
+            height: 450px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(34, 26, 26);
+        }
+        
+        .footer_main{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .company{
+            color: white;
+            padding-top: 50px;
+        }
+        
+        .suport{
+            color: white;
+            padding-top: 50px;
+        }
+        
+        .legel{
+            color: white;
+            padding-top: 50px;
+        }
+        
+        .install{
+            color: white;
+            padding-top: 50px;
+        }
+        
+        .icon3{
+            height: 70px;
+            width: 200px;
+            border: 1px solid rgb(236, 217, 217);
+            border-radius:10px;
+        }
+        
+        #play2{
+            height: 50px;
+            width: 50px;
+            font-size: 3.5rem;
+            padding-top: 6px;
+            padding-left: 10px;
+            color: rgb(226, 204, 204);
+        }
+        
+        .gopla{
+            margin-top: -25%;
+            margin-left: 30%;
+            padding: 10px;
+        }
+        
+        .getiton1{
+            font-size: 0.6rem;
+        }
+        
+        .googleplay1{
+            font-size: 1.2rem;
+        }
+        
+        .icon4{
+            height: 70px;
+            width: 200px;
+            border: 1px solid rgb(223, 171, 171);
+            border-radius:10px;
+        }
+        
+        #apple2{
+            height: 50px;
+            width: 50px;
+            font-size: 3.5rem;
+            padding-top: 2px;
+            padding-left: 10px;
+            color: rgb(226, 204, 204)
+        }
+        
+        .down{
+            margin-top: -25%;
+            margin-left: 30%;
+            padding: 10px;
+            color: white;
+        }
+        
+        .down3{
+            font-size: 0.6rem;
+        }
+        
+        .appstore1{
+            font-size: 1.2rem;
+        }
+        
+        .bottom{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        h2{
+            font-size: 1.8rem;
+        }
+        
+        h3{
+            color: beige;
+            font-size: 1.2rem;
+        }
+        
+        .footerhr{
+            width: 100%;
+            color: white;
+        }
+        
+        .allright{
+            color: rgb(248, 236, 236);
+        }
+        
+        .twitter{
+            color: rgb(240, 228, 228);
+            font-size: 2rem;
+           
+        }
+    }
+
+
+
+    @media screen and (max-width:600px){
+
+        .menu{
+            opacity: 1;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-bottom: 20%;
+            margin-right: 450px;
+        }
+        #teamflo{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-bottom: 20%;
+            margin-left: 500px;
+        }
+        .account{
+            width: 100%;
+            font-size: 1rem;
+            
+        }
+        .headercontant{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+        
+        .text1{
+            font-size: 1.4rem;
+            text-align: center;
+            width: 55%;
+            margin-top: 200px;
+        }
+        
+        .text2{
+            text-align: center;
+            font-size: 1.5rem;
+            width: 50%;
+            
+        }
+        
+        .input{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            row-gap: 30px;
+            margin-top: 40px;
+           
+        }
+        
+        .yourcompany{
+            height: 50px;
+            font-size: 1.5rem;
+            padding: 10px;
+            border-radius: 10px;  
+            
+        }
+
+        .tryit{
+            width: 400px;
+            height: 50px;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            color: white;
+            background-color: blueviolet; 
+             
+        }
+        .customers{
+            height: 150px;
+            width: 45%;
+            text-align: center;
+            font-size: 1rem;
+            margin-left: 28%;
+            margin-top: 10px;
+            margin-bottom: 150px;
+        }
+        
+        .amazing2{
+            width: 100%;
+            text-align: center;
+           
+        }
+
+        
+        .footer1{
+            height: 400px;
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            text-align: center;
+            background-color: blueviolet;
+            border-radius: 30px;
+            font-size: 1.5rem;
+        }
+        
+        .employees{
+            width: 100%;
+            margin-left: 0%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            align-content: center;
+            color: white;
+            padding-top: 20px;
+        }
+        
+        .icons{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+            align-content: center;
+            text-align: center;
+            /* gap: 30px; */
+            
+        }
+        
+        .icon_go{
+            height: 90px;
+            width: 50%;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        .fa-google-play{
+            height: 50px;
+            width: 50px;
+            font-size: 3rem;
+            color: red;
+        }
+        .goplay{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            justify-content: end;
+            /* padding: 15px; */
+        
+        }
+        .getiton{
+            font-size: 1rem;
+            color: rgb(116, 103, 88);
+        }
+        
+        .googleplay{
+            font-size: 1.5rem;
+        }
+        
+        .icon_app{
+            height: 90px;
+            width: 50%;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        .fa-apple{
+            height: 50px;
+            width: 50px;
+            font-size: 3rem;
+            color: red;
+            
+        }
+        .downapp{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            justify-content: end;
+            padding: 5px;
+        }
+        
+        .down1{
+            font-size: 1rem;
+            color: rgb(116, 103, 88);
+        }
+        
+        .appstore{
+            font-size: 1.5rem;
+        }
+
+        .footer2{
+            height: 550px;
+            width: 100%;
+            display: flex;
+            /* flex-direction: column; */
+            background-color: rgb(34, 26, 26);
+        }
+        
+        .footer_main{
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+            /* flex-direction: column; */
+            align-items: center;
+        }
+        
+        .company{
+            color: white;
+            padding-top: 50px;
+            
+        }
+        .com2{
+                /* opacity: 0; */
+                font-size: 1rem;
+        }
+
+        .com1{
+            font-size: 1.2rem;
+        }
+        
+        .suport{
+            color: white;
+            /* padding-top: 50px; */
+        }
+        
+        .legel{
+            color: white;
+            /* padding-top: 50px; */
+        }
+        
+        .install{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            color: white;
+            /* padding-top: 50px; */
+        }
+        
+        .icon3{
+            height: 70px;
+            width: 200px;
+            border: 1px solid rgb(236, 217, 217);
+            border-radius:10px;
+        }
+        
+        #play2{
+            height: 50px;
+            width: 50px;
+            font-size: 3.5rem;
+            padding-top: 6px;
+            padding-left: 10px;
+            color: rgb(226, 204, 204);
+        }
+        
+        .gopla{
+            margin-top: -25%;
+            margin-left: 30%;
+            padding: 10px;
+        }
+        
+        .getiton1{
+            font-size: 0.6rem;
+        }
+        
+        .googleplay1{
+            font-size: 1.2rem;
+        }
+        
+        .icon4{
+            height: 70px;
+            width: 200px;
+            border: 1px solid rgb(223, 171, 171);
+            border-radius:10px;
+        }
+        
+        #apple2{
+            height: 50px;
+            width: 50px;
+            font-size: 3.5rem;
+            padding-top: 2px;
+            padding-left: 10px;
+            color: rgb(226, 204, 204)
+        }
+        
+        .down{
+            margin-top: -25%;
+            margin-left: 30%;
+            padding: 10px;
+            color: white;
+        }
+        
+        .down3{
+            font-size: 0.6rem;
+        }
+        
+        .appstore1{
+            font-size: 1.2rem;
+        }
+        
+        .bottom{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        h2{
+            font-size: 1.8rem;
+        }
+        
+        h3{
+            color: beige;
+            font-size: 1.2rem;
+        }
+        
+        .footerhr{
+            width: 100%;
+            color: white;
+        }
+        
+        .allright{
+            color: rgb(248, 236, 236);
+        }
+        
+        .twitter{
+            color: rgb(240, 228, 228);
+            font-size: 2rem;
+           
+        }
+    
+
+    }
+    @media screen and (max-width:500px){
+
+        .menu{
+            opacity: 1;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-bottom: 20%;
+            margin-left: -200px;
+            margin-right: 500px;
+        }
+        #teamflo{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-bottom: 20%;
+            margin-right: -200px;
+        }
+        .headercontant{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+        
+        .text1{
+            font-size: 1.2rem;
+            text-align: center;
+            width: 55%;
+            margin-top: 200px;
+        }
+        
+        .text2{
+            text-align: center;
+            font-size: 1.5rem;
+            width: 50%;
+            
+        }
+        
+        .input{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            row-gap: 30px;
+            margin-top: 40px;
+           
+        }
+        
+        .yourcompany{
+            height: 50px;
+            font-size: 1.5rem;
+            padding: 10px;
+            border-radius: 10px;  
+            
+        }
+
+        .tryit{
+            width: 400px;
+            height: 50px;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            color: white;
+            background-color: blueviolet; 
+             
+        }
+
+        .customers{
+            height: 150px;
+            width: 45%;
+            text-align: center;
+            font-size: 0.8rem;
+            margin-left: 28%;
+            margin-top: 10px;
+            margin-bottom: 150px;
+        }
+        
+        .amazing2{
+            width: 100%;
+            text-align: center;
+           
+        }
+
+        .ul2{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            text-decoration: none;
+            column-gap: 3%;
+            margin: 30px 0px 100px 0px;
+            margin-left: 70px;
+        }
+        
+        .ul2 a{
+            text-decoration: none;
+            text-align: center;
+            font-size:1.5rem;
+            display: flex;
+            overflow: hidden;
+            color: rgb(176, 115, 233);
+        }
+        .slack{
+            opacity: 0  ;
+        }
+        .text4{
+            font-size: 1.5rem;
+        }
+        .footer1{
+            height: 400px;
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            text-align: center;
+            background-color: blueviolet;
+            border-radius: 30px;
+            font-size: 1.5rem;
+        }
+        
+        .employees{
+            width: 100%;
+            margin-left: 0%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            align-content: center;
+            color: white;
+            padding-top: 20px;
+        }
+        
+        .icons{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+            align-content: center;
+            text-align: center;
+            /* gap: 30px; */
+            
+        }
+        
+        .icon_go{
+            height: 60px;
+            width: 60%;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        .fa-google-play{
+            height: 50px;
+            width: 50px;
+            font-size: 3rem;
+            color: red;
+        }
+        .goplay{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            justify-content: end;
+            /* padding: 15px; */
+        
+        }
+        .getiton{
+            font-size: 1rem;
+            color: rgb(116, 103, 88);
+        }
+        
+        .googleplay{
+            font-size: 1.3rem;
+        }
+        
+        .icon_app{
+            height: 60px;
+            width: 60%;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        .fa-apple{
+            height: 50px;
+            width: 50px;
+            font-size: 3rem;
+            color: red;
+            
+        }
+        .downapp{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            justify-content: end;
+            padding: 5px;
+        }
+        
+        .down1{
+            font-size: 1rem;
+            color: rgb(116, 103, 88);
+        }
+        
+        .appstore{
+            font-size: 1.5rem;
+        }
+        .footer2{
+            height: 950px;
+            width: 100%;
+            display: flex;
+            /* flex-direction: column; */
+            background-color: rgb(34, 26, 26);
+        }
+        
+        .footer_main{
+            height: 900px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .company{
+            color: white;
+            padding-top: 50px;
+            
+        }
+        .com2{
+                /* opacity: 0; */
+                font-size: 0.8rem;
+        }
+
+        .com1{
+            font-size: 1.8rem;
+        }
+        
+        .suport{
+            color: white;
+            /* padding-top: 50px; */
+        }
+        
+        .legel{
+            color: white;
+            /* padding-top: 50px; */
+        }
+        
+        .install{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            color: white;
+            /* padding-top: 50px; */
+        }
+        
+        .icon3{
+            height: 70px;
+            width: 200px;
+            border: 1px solid rgb(236, 217, 217);
+            border-radius:10px;
+        }
+        
+        #play2{
+            height: 50px;
+            width: 50px;
+            font-size: 3.5rem;
+            padding-top: 6px;
+            padding-left: 10px;
+            color: rgb(226, 204, 204);
+        }
+        
+        .gopla{
+            /* margin-top: -25%;
+            margin-left: 30%; */
+            padding: 10px;
+        }
+        
+        .getiton1{
+            font-size: 0.6rem;
+        }
+        
+        .googleplay1{
+            font-size: 1.2rem;
+        }
+        
+        .icon4{
+            height: 70px;
+            width: 200px;
+            border: 1px solid rgb(223, 171, 171);
+            border-radius:10px;
+        }
+        
+        #apple2{
+            height: 50px;
+            width: 50px;
+            font-size: 3.5rem;
+            padding-top: 2px;
+            padding-left: 10px;
+            color: rgb(226, 204, 204)
+        }
+        
+        .down{
+            margin-top: -25%;
+            margin-left: 30%;
+            padding: 10px;
+            color: white;
+        }
+        
+        .down3{
+            font-size: 0.6rem;
+        }
+        
+        .appstore1{
+            font-size: 1.2rem;
+        }
+        
+        .bottom{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        h2{
+            font-size: 1.8rem;
+        }
+        
+        h3{
+            color: beige;
+            font-size: 1.2rem;
+        }
+        
+        .footerhr{
+            width: 100%;
+            color: white;
+        }
+        
+        .allright{
+            color: rgb(248, 236, 236);
+        }
+        
+        .twitter{
+            color: rgb(240, 228, 228);
+            font-size: 1rem;
+            opacity: 0;
+           
+        }
+        
+       
+    }
+    @media screen and (max-width:400px){
+
+        .menu{
+            opacity: 1;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-bottom: 20%;
+            margin-left: -200px;
+            margin-right: 500px;
+        }
+        #teamflo{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-bottom: 20%;
+            /* margin-left: 600px; */
+            margin-right: -200px;
+        }
+        .headercontant{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+        
+        .text1{
+            font-size: 1.1rem;
+            text-align: center;
+            width: 55%;
+            margin-top: 200px;
+        }
+        
+        .text2{
+            text-align: center;
+            font-size: 1.5rem;
+            width: 50%;
+            
+        }
+        
+        .input{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            row-gap: 30px;
+            margin-top: 40px;
+           
+        }
+        .ul2 a{
+            text-decoration: none;
+            text-align: center;
+            font-size:1.2rem;
+            display: flex;
+            overflow: hidden;
+            color: rgb(176, 115, 233);
+        }
+        
+        .yourcompany{
+            height: 50px;
+            width: 250px;
+            font-size: 1.5rem;
+            padding: 10px;
+            border-radius: 10px;  
+            
+        }
+
+        .tryit{
+            width: 250px;
+            height: 50px;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            color: white;
+            background-color: blueviolet; 
+             
+        }
+
+        .icon_go{
+            height: 60px;
+            width: 70%;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 20px;
+        }
+              
+        .icon_app{
+            height: 60px;
+            width: 70%;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 20px;
+        }
+        .footer2{
+            height: 950px;
+            width: 100%;
+            display: flex;
+            /* flex-direction: column; */
+            background-color: rgb(34, 26, 26);
+        }
+        
+        .footer_main{
+            height: 900px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .company{
+            color: white;
+            padding-top: 50px;
+            
+        }
+        .com2{
+                /* opacity: 0; */
+                font-size: 0.8rem;
+        }
+
+        .com1{
+            font-size: 1.8rem;
+        }
+        
+        .suport{
+            color: white;
+            /* padding-top: 50px; */
+        }
+        
+        .legel{
+            color: white;
+            /* padding-top: 50px; */
+        }
+        
+        .install{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            color: white;
+            /* padding-top: 50px; */
+        }
+        
+        .icon3{
+            height: 70px;
+            width: 200px;
+            border: 1px solid rgb(236, 217, 217);
+            border-radius:10px;
+        }
+        
+        #play2{
+            height: 50px;
+            width: 50px;
+            font-size: 3.5rem;
+            padding-top: 6px;
+            padding-left: 10px;
+            color: rgb(226, 204, 204);
+        }
+        
+        .gopla{
+            /* margin-top: -25%;
+            margin-left: 30%; */
+            padding: 10px;
+        }
+        
+        .getiton1{
+            font-size: 0.6rem;
+        }
+        
+        .googleplay1{
+            font-size: 1.2rem;
+        }
+        
+        .icon4{
+            height: 70px;
+            width: 200px;
+            border: 1px solid rgb(223, 171, 171);
+            border-radius:10px;
+        }
+        
+        #apple2{
+            height: 50px;
+            width: 50px;
+            font-size: 3.5rem;
+            padding-top: 2px;
+            padding-left: 10px;
+            color: rgb(226, 204, 204)
+        }
+        
+        .down{
+            margin-top: -25%;
+            margin-left: 30%;
+            padding: 10px;
+            color: white;
+        }
+        
+        .down3{
+            font-size: 0.6rem;
+        }
+        
+        .appstore1{
+            font-size: 1.2rem;
+        }
+        
+        .bottom{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        h2{
+            font-size: 1.8rem;
+        }
+        
+        h3{
+            color: beige;
+            font-size: 1.2rem;
+        }
+        
+        .footerhr{
+            width: 100%;
+            color: white;
+        }
+        
+        .allright{
+            color: rgb(248, 236, 236);
+        }
+        
+        .twitter{
+            color: rgb(240, 228, 228);
+            font-size: 0.5rem;
+            opacity: 0;
+           
+        }
+
+    }
+    
+     
 
 

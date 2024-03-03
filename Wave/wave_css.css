@@ -5,31 +5,45 @@
 }
 
 .wave_form{
-    height: 650px;
-    width: auto;
+    height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-image: url("https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
+.wave1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
 .wave{
     height: 100px;
-    width: auto;
+    width: 100%;
     
 }
 svg{
-    height: 350px;
+    height: 460px;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 370px;
 
 }
 .text{
     color: white;
-    margin-left: 400px;
+    
 }
 h3{
     font-size: 2rem;
-    margin-left: 160px;
+    
+}
+h5{
+    font-size: 1.5rem;
+    
 }
 p{
     font-size: 1.5rem;
@@ -37,12 +51,15 @@ p{
 }
 hr{
     width: 300px;
-    margin-left: 120px;
+    text-align: center;
+    margin-left: 150px;
 }
 .boxes{
-    height: 70px;
-    widows: 70px;
-    position: relative;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    text-align: center;
+   
 }
 
 .img1{
@@ -50,9 +67,7 @@ hr{
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    position: absolute;
-    top: 330px;
-    left: 200px;
+    margin-top: 170px;
     transition: all 800ms;
     transition-delay: 100ms;
 }
@@ -62,11 +77,9 @@ hr{
     border-radius: 50%;
     background-position: center;
     background-size: cover;
-    position: absolute;
-    top: 260px;
-    left: 450px;
     transition: all 800ms;
     transition-delay: 100ms;
+    margin-top: 130px;
 }
 
 .img3{
@@ -74,11 +87,9 @@ hr{
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    position: absolute;
-    top: 210px;
-    left: 650px;
     transition: all 800ms;
     transition-delay: 100ms;
+    margin-top: 20px;
 }
 
 .img4{
@@ -86,11 +97,9 @@ hr{
     border-radius: 50%;
     background-position: center;
     background-size: cover;
-    position: absolute;
-    top: 250px;
-    left: 850px;
     transition: all 800ms;
     transition-delay: 100ms;
+    margin-top: 80px;
 
 }
 
@@ -99,21 +108,17 @@ hr{
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    position: absolute;
-    top: 250px;
-    left: 1100px;
     transition: all 800ms;
     transition-delay: 100ms;
+    margin-top: 40px;
 }
 .text1{
     color: black;
     opacity: 0;
     font-size: 12px;
-    position: relative;
     transition: all 800ms;
     transition-delay: 100ms;
-    top: 400px;
-    left: 185px;
+  
 }
 .text1:hover{
     font-size: 16px;
@@ -124,11 +129,9 @@ hr{
     color: black;
     font-size: 12px;
     opacity: 0;
-    position: relative;
     transition: all 800ms;
     transition-delay: 100ms;
-    top: 310px;
-    left: 410px;
+    
 }
 .text2:hover{
     font-size: 16px;
@@ -139,11 +142,9 @@ hr{
     color: black;
     opacity: 1;
     font-size: 12px;
-    position: relative;
     transition: all 800ms;
     transition-delay: 100ms;
-    top: 250px;
-    left: 615px;
+   
 }
 .text3:hover{
     font-size: 16px;
@@ -155,11 +156,9 @@ hr{
     color: black;
     opacity: 1;
     font-size: 12px;
-    position: relative;
     transition: all 800ms;
     transition-delay: 100ms;
-    top: 280px;
-    left: 820px;
+    
 }
 .text4:hover{
     font-size: 16px;
@@ -172,11 +171,9 @@ hr{
     color: black;
     opacity: 0;
     font-size: 12px;
-    position: relative;
     transition: all 800ms;
     transition-delay: 100ms;
-    top: 250px;
-    left: 1090px;
+   
 }
 .text5:hover{
     font-size: 16px;
