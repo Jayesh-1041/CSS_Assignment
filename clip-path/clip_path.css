@@ -13,14 +13,14 @@ body{
 .parent{
     height: 100%;
     width: 100%;
-    position: relative;
+   
 
     
 }
 
 .child{
     height: 500px;
-    width: 1300px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     border: 2px solid red;
@@ -49,7 +49,7 @@ span{
     list-style: none;
     padding-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .home{
@@ -78,30 +78,30 @@ hr{
 .fa-angle-left{
     height: 40px;
     width: 40px;
-    position: absolute;
-    bottom: 450px;
     border: 1px solid red;
     padding: 12px;
     background-color: aliceblue;
-    margin: 20px;
+    margin-left: 30px;
 
 }
 
 .fa-angle-right{
     height: 40px;
     width: 40px;
-    position: absolute;
-    bottom: 450px;
-    left: 1220px;
+    margin-left: 88%;
     border: 1px solid red;
     padding: 12px;
     background-color: rgb(17, 204, 98);
-    margin: 20px;
+    
 
 }
 
 .button{
-    margin: 50px 0px 0px 480px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center   ;
+    margin-left: 38%;
 
 }
 
@@ -124,19 +124,19 @@ hr{
     height: 40px;
     width: 40px;
     border: 1px solid red;
-    position: absolute;
-    bottom: 175px;
-    left: 610px;
     border-radius: 50px;
     padding: 10px;
     background-color: rgba(219, 227, 235, 0.993);
-    margin: 20px;
+    margin-left: 49%;
+    margin-top: 0px;    
 
 }
 
 .footer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
     margin-top: 60px;
     text-align: center;
     margin-left: 150px;

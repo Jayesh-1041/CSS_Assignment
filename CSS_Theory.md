@@ -21,6 +21,16 @@
 
 **ANS :-**
         CSS2 introduced a new box model which included padding, borders, and margins. CSS3 introduced the flexible box layout module, which allows for more flexible layouts.
+        CSS2 and CSS3 difference is
+        => There is no backward compatibility with CSS2.
+        => There is backward compatibility maintained with CSS3.
+        => With CSS2 only web safe fonts can be used.
+        => With CSS3 special fonts can be used such as those in Google Fonts.
+        => With CSS2 the concept of simple selectors were present.
+        => With CSS3 the selectors were called as a sequence of simple selectors.com.
+        => Using CSS2, for rounded borders, coding the css styles were complex.
+        => With CSS3, there is provision for automatically assigning rounded.
+
 
 ### **Q-4.**     Name a few CSS style components.
 
@@ -89,6 +99,9 @@ Example:-
 ### **Q-10.**    Why should background and color be used as separate properties?
 
 **ANS :-** The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase. Color is an inherited property while the background.
+=> color:- is used to add color to the Text within the Tag. color: blue;
+=> background-color:- is used to add color in background of the content inside the tag.
+background-color:red;
 
 ### **Q-11.**    How to center block elements using CSS1?
 
@@ -99,23 +112,9 @@ body {
 
 ### **Q-12.**    How to maintain the CSS specifications?
 
-**ANS :-** The CSS specifications are maintaind by the World Wide Web Consortoum (WWWC). Even though every browser supports CSS, there are many inconsistencies in the supported specification version.
+**ANS :-** The CSS specifications are maintained by the World Wide Web Consortium (W3C). Even though every browser supports CSS, there are many inconsistencies in the supported specification version. Some browsers even have their own implementation of the specification and have proprietary prefixes.
 
-``<!DOCTYPE html>``
-``<html>``
-``<head>``
-``<style>``
-``p {color: red;} ``
-``</style>``
-``</head>``
-``<body>``
 
-``<p>Assignment CSS</p>``
-
-``</body>``
-``</html>``
-
-Ans :- Assignment CSS
 
 ### **Q-13.**   What are the ways to integrate CSS as a web page?
 
@@ -160,6 +159,34 @@ Example:-
 
 **ANS :-**      Some of its primary advantages are increased website speed, time efficiency, flexibility, consistency, etc....
 disadvantages are limited security, cross-browser issues, extera work for developers, etc....
+**Advantages of External CSS**
+=> Since the CSS code is in a separate document, your HTML files will have a cleaner structure and are smaller in size.
+=> You can use the same .css file for multiple pages.
+
+**Disadvantages of External CSS**
+=> Your pages may not be rendered correctly until the external CSS is loaded.
+=> Uploading or linking to multipale CSS files can increase your site's download time.
+
+``<!DOCTYPE html>``
+``<html>``
+``<head>``
+``<style>``
+body {
+    background-color: blue;
+}
+h1 {
+    color: red;
+    padding: 60px;
+} 
+``</style>``
+``</head>``
+``<body>``
+
+``<h1>Assignment</h1>``
+``<p>FrontEnd</p>``
+
+``</body>``
+``</html>``
 
 ### **Q-17**    What is the meaning of the CSS?
 
@@ -187,5 +214,4 @@ Example:-
 
 ### **Q-19.**   What is the rule set?
 
-**ANS :-**      A CSS rule set contains one or more selectors and one or more declaration.
-The selector(s), which in this example is h1, points to an HTML element. The declaration(s), which in this example are color: blue and text-align: center style the element with a property and value.
+**ANS :-**      A rule set is a collection of one or more rules. These rules are grouped together to determine whether a user can perform a specific action on an object. By evaluating multiple rules together, rule sets provide a broader, more holistic view of a data source and its records. Essentially, a rule set comprises several rules that belong together from a business perspective.
