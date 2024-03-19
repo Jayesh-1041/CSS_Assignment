@@ -188,7 +188,7 @@ h1 {
 ``</body>``
 ``</html>``
 
-### **Q-17**    What is the meaning of the CSS?
+### **Q-17**    What is the meaning of the CSS selector?
 
 **ANS :-**      => CSS stands for Cascading Style Sheets.
 => CSS describes how HTML elements are to be displayed on screen, paper, or in other media
@@ -214,4 +214,11 @@ Example:-
 
 ### **Q-19.**   What is the rule set?
 
-**ANS :-**      A rule set is a collection of one or more rules. These rules are grouped together to determine whether a user can perform a specific action on an object. By evaluating multiple rules together, rule sets provide a broader, more holistic view of a data source and its records. Essentially, a rule set comprises several rules that belong together from a business perspective.
+**ANS :-**  In web development, a CSS rule set is a set of one or more CSS (Cascading Style Sheets) declarations that define how HTML elements should be styled on a webpage. Each rule set consists of a selector and one or more declarations enclosed.
+
+Example:- h1 {
+        color : red;
+        font-size: 20px;
+}
+
+=> In this Example, 'h1' is the selector, and 'color:red;' and 'font-size:20;' are declarations. This rule set styles all `<h1>` elements on the webpage to have blue text color and a font size of 20px.
