@@ -190,10 +190,8 @@ h1 {
 
 ### **Q-17**    What is the meaning of the CSS selector?
 
-**ANS :-**      => CSS stands for Cascading Style Sheets.
-=> CSS describes how HTML elements are to be displayed on screen, paper, or in other media
-=> CSS saves a lot of work. It can control the layout of multiple web pages all at once
-=> External stylesheets are stored in CSS files.
+**ANS :-**      => A CSS selector is a pattern used to select and style one or more elements in an HTML document. Selectors are used in CSS rules to target specific elements based on their tag name, class, ID, attributes, or relationship with other elements.
+=> Example:-  The selector h1, the h1 represents all `<h1>` elements in the document, and in the selector .class, the .class represents all elements with a class attribute equal to "class".
 
 
 ### **Q-18 :-** What are the media types allowed by CSS?
