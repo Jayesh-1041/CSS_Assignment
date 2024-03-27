@@ -200,7 +200,7 @@ h1 {
 => all: Used for all types of devices.
 => print: Intended for paged material and documents viewed in print preview mode.
 => screen: Used for computer screens, tablets, smartphones, and other similar devices.
-=> max-hight, min-hight, max-width, min-width, width
+=> max-hight, min-hight, max-width, min-width, width 
 
 Example:-
 
