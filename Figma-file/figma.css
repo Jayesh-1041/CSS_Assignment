@@ -3,106 +3,68 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .main_contain{
     height: 100%;
     width: 100%;
     background-color: rgba(245, 240, 235, 0.349); 
+    padding: 10px;
+    margin: auto;
 }
 
 .header{
-    height: 70px;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
     background-color: rgb(240, 232, 222);
     border: 1px solid rgb(230, 189, 189);
     border-radius: 20px;
     font-size: 1.5rem;
-    padding: 7px;
+    margin: auto;
 }
 
-.ul1{
-    list-style-type: none;
-    padding-top: 10px;
-    margin: 0px;
+.logo{
+    font-size: 1.5rem;
+}
+
+nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: 100px;
     align-items: center;
-    align-content: center;
-    overflow: hidden;
 }
 
-.li1 a {
-    display: block;
-    color: rgb(97, 56, 56);
-    text-align: center;
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 300ms;
+}
+nav a{
     text-decoration: none;
-  }
+    color: gray;
+}
 
-  .li1 .team1{
-    color: rgb(122, 31, 207);
-  }
-  
+.btns{
+    display: flex;
+    gap: 20px;
+}
 
-#get_started{
-    background-color: rgb(188, 215, 216);
-    color: rgb(88, 130, 209);
-    width: 160px;
+.fa-bars{
     font-size: 1.5rem;
-    border-radius: 10px;
-    opacity: 1;
+    /* visibility: hidden; */
+    display: none;
 }
 
-.howit{
-    border: hidden;
-    font-size: 1.2rem;
-    background-color: rgb(240, 232, 222);
-    opacity: 1;
-}
-
-#teamflo{
-    font-size: 2rem;
-}
-
-.produc{
-    border: hidden;
-    font-size: 1.2rem;
-    background-color: rgb(240, 232, 222);
-    opacity: 1;
-}
-
-.resor{
-    border: hidden;
-    font-size: 1.2rem;
-    background-color: rgb(240, 232, 222);
-    opacity: 1;
-}
-
-#pricing{
-    opacity: 1;
-}
-
-#login{
-    opacity: 1;
-}
-
-
-
-.menu{
-    height: 40px;
-    width: 100px;
-    font-size: 1.5rem;
-    background-color: aquamarine;
-    border-radius: 12px;
-    color: blueviolet;
-    opacity: 0;
-}
 
 .save_valu{
     width: 50%;
     height: 60px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-top: 7%;
     position: absolute;
 }
@@ -122,7 +84,7 @@
 
 .account{
     height: 50px;
-    width: 50%;
+    width: 60%;
     font-size: 1.4rem;
     text-align: center;
     border: 1px solid white;
@@ -156,8 +118,7 @@
 .input{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-   
+    margin-top: 40px; 
 }
 
 .yourcompany{
@@ -167,8 +128,6 @@
     padding: 10px;
     border-top-left-radius:10px;
     border-bottom-left-radius: 10px;
-   
-    
 }
 
 .tryit{
@@ -178,7 +137,6 @@
     border-bottom-right-radius: 10px;
     color: white;
     background-color: blueviolet; 
-     
 }
 
 .graf1{
@@ -303,9 +261,6 @@ hr{
     flex-direction: column;
     align-items: flex-start;
 }
-
-
-
 
 .make_your_work{
     height: 150px;
@@ -555,10 +510,7 @@ hr{
     font-size: 3rem;
     color: red;
 }
-/* .goplay{
-    padding: 10px;
 
-} */
 .getiton{
     font-size: 0.7rem;
     color: rgb(116, 103, 88);
@@ -588,13 +540,6 @@ hr{
     color: red;
     
 }
-/* .downapp{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    
-} */
-
 .down1{
     font-size: 0.7rem;
     color: rgb(116, 103, 88);
@@ -603,8 +548,6 @@ hr{
 .appstore{
     font-size: 1.2rem;
 }
-
-
 
 .footer2{
     height: 450px;
@@ -732,28 +675,35 @@ h3{
 }
 
 
-/* ****** @media quary ****** */
-@media screen and (max-width:900px){
+
+
+
+/* ***************** @media quary ************* */
+@media screen and (max-width:950px){
 
     .header{
-        height: 70px;
-        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
         background-color: rgb(240, 232, 222);
         border: 1px solid rgb(230, 189, 189);
         border-radius: 20px;
-        font-size: 1rem;
-        padding: 7px;
+        font-size: 1.3rem;
     }
-
-
+    nav{
+        display: flex;
+        gap: 15px;
+        margin-left: auto;
+        margin-right: 50px;
+        align-items: center;
+    }
+        
 }
-
-
-
 
 /* ****** @media quary ****** */
 @media screen and (max-width:800px){
-    .save{
+       .save{
         opacity: 0;
     }
     .account{
@@ -765,22 +715,7 @@ h3{
         font-size: 1.5rem;
         
     }
-    .menu{
-        opacity: 1;
-        display: flex;
-        align-items: center;
-        align-content: center;
-        margin-bottom: 20%;
-        margin-right: 20%;
-    }
-    #teamflo{
-        display: flex;
-        align-items: center;
-        align-content: center;
-        margin-bottom: 20%;
-        margin-left: 200px;
-        font-size: 2rem;
-    }
+    
     .headercontant{
         display: flex;
         flex-direction: column;
@@ -1243,7 +1178,7 @@ h3{
     }
 
 
-    /* ******** Footer2 ********* */
+    /* ****************** Footer2 ****************** */
 
     .footer2{
         height: 450px;
@@ -1369,27 +1304,11 @@ h3{
         font-size: 2rem;
        
     }
-
-    
 }
+
+
     @media screen and (max-width:700px){
 
-        .menu{
-            opacity: 1;
-            display: flex;
-            align-items: center; 
-            align-content: center;
-             margin-bottom: 20%;
-             margin-left: -200px;
-            margin-right: 800px;
-        }
-        #teamflo{
-            display: flex;
-            align-items: center;
-            align-content: center;
-            margin-bottom: 20%;
-            margin-left: 900px;
-        } 
         .account{
             display: flex;
             align-items: center;
@@ -1778,25 +1697,54 @@ h3{
         }
     }
 
+    @media screen and (max-width:768px) {
+        .header{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            position: relative;
+            margin: auto;
+        }
 
+        .fa-bars{
+            visibility: visible ;
+            display: block;
+        }
 
+        .wrapper{
+            visibility: hidden;
+            position: absolute;
+            flex-wrap: wrap;
+            gap: 0px;
+        }
+        
+    }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .header{
+        flex-direction: row;
+        position: relative;
+    }
+
+    .fa-bars{
+        visibility: visible ;
+        display: block;
+    }
+
+    .wrapper{
+        visibility: hidden;
+        flex-direction: column;
+        /* position: absolute; */
+        flex-wrap: wrap;
+        top:-100px;
+        gap: 0px;
+    }
+
+}
+
+    
     @media screen and (max-width:600px){
 
-        .menu{
-            opacity: 1;
-            display: flex;
-            align-items: center;
-            align-content: center;
-            margin-bottom: 20%;
-            margin-right: 450px;
-        }
-        #teamflo{
-            display: flex;
-            align-items: center;
-            align-content: center;
-            margin-bottom: 20%;
-            margin-left: 500px;
-        }
         .account{
             width: 100%;
             font-size: 1rem;
@@ -2110,23 +2058,7 @@ h3{
 
     }
     @media screen and (max-width:500px){
-
-        .menu{
-            opacity: 1;
-            display: flex;
-            align-items: center;
-            align-content: center;
-            margin-bottom: 20%;
-            margin-left: -200px;
-            margin-right: 500px;
-        }
-        #teamflo{
-            display: flex;
-            align-items: center;
-            align-content: center;
-            margin-bottom: 20%;
-            margin-right: -200px;
-        }
+    
         .headercontant{
             display: flex;
             flex-direction: column;
@@ -2200,14 +2132,14 @@ h3{
             align-content: center;
             text-decoration: none;
             column-gap: 3%;
-            margin: 30px 0px 100px 0px;
+            margin: 30px 70px 100px 0px;
             margin-left: 70px;
         }
         
         .ul2 a{
             text-decoration: none;
             text-align: center;
-            font-size:1.5rem;
+            font-size:1.4rem;
             display: flex;
             overflow: hidden;
             color: rgb(176, 115, 233);
@@ -2215,6 +2147,7 @@ h3{
         .slack{
             opacity: 0  ;
         }
+
         .text4{
             font-size: 1.5rem;
         }
@@ -2460,24 +2393,16 @@ h3{
         
        
     }
-    @media screen and (max-width:400px){
+    @media screen and (max-width:400px){        
 
-        .menu{
-            opacity: 1;
+        .account{
             display: flex;
             align-items: center;
             align-content: center;
-            margin-bottom: 20%;
-            margin-left: -200px;
-            margin-right: 500px;
-        }
-        #teamflo{
-            display: flex;
-            align-items: center;
-            align-content: center;
-            margin-bottom: 20%;
-            /* margin-left: 600px; */
-            margin-right: -200px;
+            text-align: center;
+            width: 100%;
+            font-size: 0.7rem;
+            
         }
         .headercontant{
             display: flex;
@@ -2509,10 +2434,22 @@ h3{
             margin-top: 40px;
            
         }
+
+        .ul2{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-decoration: none;
+            column-gap: 3%;
+            margin: 30px 0px 100px 50px;
+        }
+        
         .ul2 a{
             text-decoration: none;
             text-align: center;
-            font-size:1.2rem;
+            font-size:1.1rem;
             display: flex;
             overflow: hidden;
             color: rgb(176, 115, 233);
@@ -2544,6 +2481,13 @@ h3{
             background-color: white;
             border-radius: 20px;
         }
+        .getiton{
+            font-size: 0.8rem;
+        }
+
+        .googleplay{
+            font-size: 0.8rem;
+        }
               
         .icon_app{
             height: 60px;
@@ -2551,6 +2495,14 @@ h3{
             border: 1px solid black;
             background-color: white;
             border-radius: 20px;
+        }
+
+        .down1{
+            font-size: 0.8rem;
+        }
+
+        .appstore{
+            font-size: 0.8rem;
         }
         .footer2{
             height: 950px;

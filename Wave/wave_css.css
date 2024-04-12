@@ -21,7 +21,7 @@
     align-content: center;
     flex-direction: column;
     text-align: center;
-    /* margin-bottom: 200px; */
+    margin-bottom: 100px;
 }
 
 .wave{
@@ -49,10 +49,7 @@ h5{
     font-size: 1.5rem;
     
 }
-p{
-    font-size: 1.5rem;
-    color: rgb(243, 194, 194);
-}
+
 hr{
     width: 300px;
     text-align: center;
@@ -117,9 +114,8 @@ hr{
     transition-delay: 100ms;
     margin-top: 50px;
 }
-.text1{
+/* .text1{
     color: black;
-    opacity: 0;
     font-size: 12px;
     transition: all 800ms;
     transition-delay: 100ms;
@@ -133,7 +129,7 @@ hr{
 .text2{
     color: black;
     font-size: 12px;
-    opacity: 0;
+    margin-top: 100px;
     transition: all 800ms;
     transition-delay: 100ms;
     
@@ -145,7 +141,6 @@ hr{
 }
 .text3{
     color: black;
-    opacity: 1;
     font-size: 12px;
     transition: all 800ms;
     transition-delay: 100ms;
@@ -159,7 +154,6 @@ hr{
 }
 .text4{
     color: black;
-    opacity: 1;
     font-size: 12px;
     transition: all 800ms;
     transition-delay: 100ms;
@@ -174,7 +168,6 @@ hr{
 }
 .text5{
     color: black;
-    opacity: 0;
     font-size: 12px;
     transition: all 800ms;
     transition-delay: 100ms;
@@ -186,13 +179,13 @@ hr{
     color: rgb(126, 160, 95);
     font-style: italic;
     
-}
+} */
 
-.img1:hover{
+/* .img1:hover{
     height: 70px;
     
-}
-.img2:hover{
+} */
+/* .img2:hover{
     height: 70px;
     
 
@@ -208,4 +201,125 @@ hr{
 .img5:hover{
     height: 70px;
     
+} */
+
+
+/* ------------ */
+
+.box1{
+    position: relative;
+}
+
+.box1:hover .img1{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.box1 .text1{
+    height: 0;
+    width: 0;
+    margin-top: 50px;
+    position: absolute;
+    visibility: hidden;
+    bottom: 0;
+    transition: bottom 600ms;
+    transition-delay: 300ms;
+}
+
+.box1:hover .text1{
+    width: 100px;
+    bottom: -20px;
+    visibility: visible;
+}
+
+.box2{
+    position: relative;
+}
+
+.box2:hover .img2{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.box2 .text2{
+    height:0;
+    width:0;
+    margin-top: 50px;
+    position: absolute;
+    visibility: hidden;
+    bottom: 0;
+    transition: bottom 600ms;
+    transition-delay: 300ms;
+}
+
+.box2:hover .text2{
+    width: 100px;
+    bottom: -10px;
+    visibility: visible;
+}
+
+.box3{
+    position: relative;
+}
+
+.box3:hover .img3{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.box3 .text3{
+    height:0;
+    width:0;
+    /* position: absolute; */
+    visibility: hidden;
+    bottom: 0;
+    transition: bottom 600ms;
+    transition-delay: 300ms;
+}
+
+.box3:hover .text3{
+    width: 100px;
+    bottom: -10px;
+    visibility: visible;
+}
+.box4{
+    position: relative;
+}
+
+.box4:hover .img4{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.box4 .text4{
+    height:0;
+    width:0;
+    position: absolute;
+    visibility: hidden;
+    bottom: 0;
+    transition: bottom 600ms;
+    transition-delay: 300ms;
+}
+
+.box4:hover .text4{
+    bottom: -20px;
+    visibility: visible;
+}
+
+.box5{
+    position: relative;
+}
+
+.box5:hover .img5{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.box5 .text5{
+    height:0;
+    width:0;
+    position: absolute;
+    visibility: hidden;
+    bottom: 0;
+    transition: bottom 600ms;
+    transition-delay: 300ms;
+}
+
+.box5:hover .text5{
+    bottom: -20px;
+    visibility: visible;
 }
