@@ -5,49 +5,44 @@
 }
 
 .wave_form{
-    height: 100%;
-    width: 100%;
+    height: 650px;
+    width: auto;
+    position: relative;
     background-size: cover;
     background-position: center;
     background-image: url("https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
 .wave1{
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     display: flex;
     justify-items: center;
     align-items: center;
     align-content: center;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
-.wave{
-    height: 300px;
-    width: 100%;
-    
-}
 svg{
     height: 100%;
     width: 100%;
-    margin-top: 350px;
+    margin-top: 180px;
 
 
 }
 .text{
     color: white;
-    margin-top: -200px;
+    margin-top: 100px;
     
 }
 h3{
     font-size: 2rem;
     
 }
-h5{
+h4{
     font-size: 1.5rem;
-    
 }
 
 hr{
@@ -60,18 +55,24 @@ hr{
     justify-content: space-around;
     justify-items: center;
     text-align: center;
-    margin-top: 200px;
-   
+    position: relative;
+    margin-bottom: 100px;   
 }
 
 .img1{
     height: 50px;
     border-radius: 50%;
+    position: absolute;
     background-size: cover;
     background-position: center;
-    margin-top: 155px;
     transition: all 800ms;
     transition-delay: 100ms;
+    bottom: 60px;
+}
+.text1{
+    position: absolute;
+    bottom: 30px;
+    font-size: 0.7rem;
 }
 
 .img2{
@@ -81,127 +82,60 @@ hr{
     background-size: cover;
     transition: all 800ms;
     transition-delay: 100ms;
-    margin-top: 120px;
+    position: absolute;
+    bottom: 110px;
+}
+.text2{
+    position: absolute;
+    bottom: 80px;
+    font-size: 1rem;
 }
 
 .img3{
     height: 50px;
     border-radius: 50%;
+    position: absolute;
     background-size: cover;
     background-position: center;
     transition: all 800ms;
     transition-delay: 100ms;
-    margin-top: 30px;
+    bottom: 180px;
+}
+.text3{
+    position: absolute;
+    bottom: 150px;
 }
 
 .img4{
     height: 50px;
     border-radius: 50%;
+    position: absolute;
     background-position: center;
     background-size: cover;
     transition: all 800ms;
     transition-delay: 100ms;
-    margin-top: 90px;
-
+    bottom: 120px;
+}
+.text4{
+    position: absolute;
+    bottom: 100px;
 }
 
 .img5{
     height: 50px;
     border-radius: 50%;
+    position: absolute;
     background-size: cover;
     background-position: center;
     transition: all 800ms;
     transition-delay: 100ms;
-    margin-top: 50px;
-}
-/* .text1{
-    color: black;
-    font-size: 12px;
-    transition: all 800ms;
-    transition-delay: 100ms;
-  
-}
-.text1:hover{
-    font-size: 16px;
-    opacity: 1;
-
-}
-.text2{
-    color: black;
-    font-size: 12px;
-    margin-top: 100px;
-    transition: all 800ms;
-    transition-delay: 100ms;
-    
-}
-.text2:hover{
-    font-size: 16px;
-    opacity: 1;
-    
-}
-.text3{
-    color: black;
-    font-size: 12px;
-    transition: all 800ms;
-    transition-delay: 100ms;
-   
-}
-.text3:hover{
-    font-size: 16px;
-    opacity: 1;
-    color: rgb(196, 129, 47);
-    
-}
-.text4{
-    color: black;
-    font-size: 12px;
-    transition: all 800ms;
-    transition-delay: 100ms;
-    
-}
-.text4:hover{
-    font-size: 16px;
-    opacity: 1;
-    color: rgb(172, 116, 49);
-    font-style: italic;
-    
+    bottom: 170px;
 }
 .text5{
-    color: black;
-    font-size: 12px;
-    transition: all 800ms;
-    transition-delay: 100ms;
-   
+    position: absolute;
+    bottom: 90px;
 }
-.text5:hover{
-    font-size: 16px;
-    opacity: 1;
-    color: rgb(126, 160, 95);
-    font-style: italic;
-    
-} */
 
-/* .img1:hover{
-    height: 70px;
-    
-} */
-/* .img2:hover{
-    height: 70px;
-    
-
-}
-.img3:hover{
-    height: 70px;
-
-}
-.img4:hover{
-    height: 70px;
-
-}
-.img5:hover{
-    height: 70px;
-    
-} */
 
 
 /* ------------ */
@@ -216,19 +150,22 @@ hr{
 .box1 .text1{
     height: 0;
     width: 0;
-    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    margin-top: 500px;
     position: absolute;
     visibility: hidden;
-    bottom: 0;
+    bottom: 50px;
     transition: bottom 600ms;
     transition-delay: 300ms;
 }
 
 .box1:hover .text1{
     width: 100px;
-    bottom: -20px;
+    bottom:30px;
+    color: rgba(107, 94, 74, 0.884);
     visibility: visible;
-}
+} 
 
 .box2{
     position: relative;
@@ -239,19 +176,21 @@ hr{
 }
 
 .box2 .text2{
+    display: flex;
     height:0;
     width:0;
     margin-top: 50px;
     position: absolute;
     visibility: hidden;
-    bottom: 0;
+    bottom: 100px;
     transition: bottom 600ms;
     transition-delay: 300ms;
 }
 
 .box2:hover .text2{
     width: 100px;
-    bottom: -10px;
+    bottom: 80px;
+    color: rgba(107, 94, 74, 0.884);
     visibility: visible;
 }
 
@@ -264,18 +203,20 @@ hr{
 }
 
 .box3 .text3{
+    display: flex;
     height:0;
     width:0;
-    /* position: absolute; */
     visibility: hidden;
-    bottom: 0;
+    bottom: 160px;
     transition: bottom 600ms;
     transition-delay: 300ms;
 }
 
+
 .box3:hover .text3{
     width: 100px;
-    bottom: -10px;
+    bottom: 140px;
+    color: rgba(107, 94, 74, 0.884);
     visibility: visible;
 }
 .box4{
@@ -287,17 +228,19 @@ hr{
 }
 
 .box4 .text4{
+    display: flex;
     height:0;
     width:0;
     position: absolute;
     visibility: hidden;
-    bottom: 0;
+    bottom: 100px;
     transition: bottom 600ms;
     transition-delay: 300ms;
 }
 
 .box4:hover .text4{
-    bottom: -20px;
+    bottom: 80px;
+    color: rgba(107, 94, 74, 0.884);
     visibility: visible;
 }
 
@@ -310,16 +253,18 @@ hr{
 }
 
 .box5 .text5{
-    height:0;
-    width:0;
+    display: flex;
+    height:20px;
+    width:20px;
     position: absolute;
     visibility: hidden;
-    bottom: 0;
+    bottom: 130px;
     transition: bottom 600ms;
     transition-delay: 300ms;
 }
 
 .box5:hover .text5{
-    bottom: -20px;
+    bottom: 110px;
+    color: rgba(107, 94, 74, 0.884);
     visibility: visible;
 }
